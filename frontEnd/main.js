@@ -1,0 +1,1 @@
+gabriel = () => (console.log("gabriel",idade))
