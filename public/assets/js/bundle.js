@@ -1,36 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./frontEnd/main.js":
-/*!**************************!*\
-  !*** ./frontEnd/main.js ***!
-  \**************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/stable */ "./node_modules/core-js/stable/index.js");
-/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/regenerator-runtime/runtime */ "./node_modules/regenerator-runtime/runtime.js");
-/* harmony import */ var _node_modules_regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/style.css */ "./frontEnd/assets/css/style.css");
-/* module decorator */ module = __webpack_require__.hmd(module);
-
-
-
-var botao = document.querySelector('.botao');
-var input = document.querySelector('.cpf');
-document.addEventListener('click', function (e) {
-  e.preventDefault();
-  var alvo = e.target;
-
-  if (alvo.classList.contains('botao')) {
-    var nome = "oslinod";
-  }
-}); //export let nome = "oslindo"
-
-/***/ }),
-
 /***/ "./node_modules/core-js/internals/a-function.js":
 /*!******************************************************!*\
   !*** ./node_modules/core-js/internals/a-function.js ***!
@@ -15252,7 +15222,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\np{\r\n    font-size: 18px;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\nbody{\r\n    background-color: skyblue;\r\n}\r\n\r\n.xcontainer{\r\n    max-width: 640px;\r\n    margin: 0 auto;\r\n    padding: 20px;\r\n    margin-top: 40px;\r\n    background-color: white;\r\n    border-radius: 15px;\r\n    margin-bottom: 40px;\r\n    \r\n}\r\n\r\n.config{\r\n    margin-top: 30px;\r\n    margin-bottom: 28px;\r\n}\r\n\r\n.title{\r\n    margin-bottom: 28px;\r\n    text-align: center;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\np{\r\n    margin-bottom: 0;\r\n}\r\n\r\nform p, form input, form button{\r\n    display: block;\r\n}\r\n\r\nform input{\r\n    padding: 8px;\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n}\r\n\r\nform input:focus{\r\n    outline: 1px solid skyblue;\r\n}\r\n\r\nform button{\r\n    border: none;\r\n    background-color: skyblue;\r\n    font-family: 'Open Sans', sans-serif;\r\n    width: 100%;\r\n    height: 50px;\r\n    font-size: 1.5rem;\r\n    border: 1px solid black;\r\n    border-radius: 7px;\r\n    margin-top: 25px;\r\n\r\n}\r\n\r\n\r\nform button:hover{\r\n    border-color: blue;\r\n    color: white;\r\n}\r\n\r\nform button:active{\r\n    background-color: cadetblue;\r\n}\r\n\r\n.resposta{\r\n    width: 100%;\r\n    background-color: springgreen;\r\n    padding: 15px;\r\n    margin: 0 auto;\r\n    margin-top: 15px;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\n.resposta p{\r\n    text-align: center;\r\n    align-items: center;\r\n}\r\n\r\n.changebg{\r\n    background-color: red;\r\n    color: white;\r\n}", "",{"version":3,"sources":["webpack://./frontEnd/assets/css/style.css"],"names":[],"mappings":"AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,eAAe;IACf,oCAAoC;AACxC;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,gBAAgB;IAChB,cAAc;IACd,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,mBAAmB;IACnB,mBAAmB;;AAEvB;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;IACnB,kBAAkB;IAClB,oCAAoC;AACxC;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,mBAAmB;AACvB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,YAAY;IACZ,yBAAyB;IACzB,oCAAoC;IACpC,WAAW;IACX,YAAY;IACZ,iBAAiB;IACjB,uBAAuB;IACvB,kBAAkB;IAClB,gBAAgB;;AAEpB;;;AAGA;IACI,kBAAkB;IAClB,YAAY;AAChB;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,WAAW;IACX,6BAA6B;IAC7B,aAAa;IACb,cAAc;IACd,gBAAgB;IAChB,oCAAoC;AACxC;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,YAAY;AAChB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');\r\n\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\n\r\np{\r\n    font-size: 18px;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\nbody{\r\n    background-color: skyblue;\r\n}\r\n\r\n.xcontainer{\r\n    max-width: 640px;\r\n    margin: 0 auto;\r\n    padding: 20px;\r\n    margin-top: 40px;\r\n    background-color: white;\r\n    border-radius: 15px;\r\n    margin-bottom: 40px;\r\n    \r\n}\r\n\r\n.config{\r\n    margin-top: 30px;\r\n    margin-bottom: 28px;\r\n}\r\n\r\n.title{\r\n    margin-bottom: 28px;\r\n    text-align: center;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\np{\r\n    margin-bottom: 0;\r\n}\r\n\r\nform p, form input, form button{\r\n    display: block;\r\n}\r\n\r\nform input{\r\n    padding: 8px;\r\n    width: 100%;\r\n    margin-bottom: 10px;\r\n}\r\n\r\nform input:focus{\r\n    outline: 1px solid skyblue;\r\n}\r\n\r\nform button{\r\n    border: none;\r\n    background-color: skyblue;\r\n    font-family: 'Open Sans', sans-serif;\r\n    width: 100%;\r\n    height: 50px;\r\n    font-size: 1.5rem;\r\n    border: 1px solid black;\r\n    border-radius: 7px;\r\n    margin-top: 25px;\r\n\r\n}\r\n\r\n\r\nform button:hover{\r\n    border-color: blue;\r\n    color: white;\r\n}\r\n\r\nform button:active{\r\n    background-color: cadetblue;\r\n}\r\n\r\n.resposta{\r\n    width: 100%;\r\n    background-color: springgreen;\r\n    padding: 15px;\r\n    margin: 0 auto;\r\n    margin-top: 15px;\r\n    font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\n.resposta p{\r\n    text-align: center;\r\n    align-items: center;\r\n}\r\n\r\n.changebg{\r\n    background-color: red;\r\n    color: white;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\n    margin: 0;\n    padding: 0;\n}\n\np{\n    font-size: 18px;\n    font-family: 'Open Sans', sans-serif;\n}\n\nbody{\n    background-color: skyblue;\n}\n\n.xcontainer{\n    max-width: 640px;\n    margin: 0 auto;\n    padding: 20px;\n    margin-top: 40px;\n    background-color: white;\n    border-radius: 15px;\n    margin-bottom: 40px;\n    \n}\n\n.config{\n    margin-top: 30px;\n    margin-bottom: 28px;\n}\n\n.title{\n    margin-bottom: 28px;\n    text-align: center;\n    font-family: 'Open Sans', sans-serif;\n}\n\np{\n    margin-bottom: 0;\n}\n\nform p, form input, form button{\n    display: block;\n}\n\nform input{\n    padding: 8px;\n    width: 100%;\n    margin-bottom: 10px;\n}\n\nform input:focus{\n    outline: 1px solid skyblue;\n}\n\nform button{\n    border: none;\n    background-color: skyblue;\n    font-family: 'Open Sans', sans-serif;\n    width: 100%;\n    height: 50px;\n    font-size: 1.5rem;\n    border: 1px solid black;\n    border-radius: 7px;\n    margin-top: 25px;\n\n}\n\n\nform button:hover{\n    border-color: blue;\n    color: white;\n}\n\nform button:active{\n    background-color: cadetblue;\n}\n\n.resposta{\n    width: 100%;\n    background-color: springgreen;\n    padding: 15px;\n    margin: 0 auto;\n    margin-top: 15px;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.resposta p{\n    text-align: center;\n    align-items: center;\n}\n\n.changebg{\n    background-color: red;\n    color: white;\n}", "",{"version":3,"sources":["webpack://./frontEnd/assets/css/style.css"],"names":[],"mappings":"AAEA;IACI,SAAS;IACT,UAAU;AACd;;AAEA;IACI,eAAe;IACf,oCAAoC;AACxC;;AAEA;IACI,yBAAyB;AAC7B;;AAEA;IACI,gBAAgB;IAChB,cAAc;IACd,aAAa;IACb,gBAAgB;IAChB,uBAAuB;IACvB,mBAAmB;IACnB,mBAAmB;;AAEvB;;AAEA;IACI,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;IACnB,kBAAkB;IAClB,oCAAoC;AACxC;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,cAAc;AAClB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,mBAAmB;AACvB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,YAAY;IACZ,yBAAyB;IACzB,oCAAoC;IACpC,WAAW;IACX,YAAY;IACZ,iBAAiB;IACjB,uBAAuB;IACvB,kBAAkB;IAClB,gBAAgB;;AAEpB;;;AAGA;IACI,kBAAkB;IAClB,YAAY;AAChB;;AAEA;IACI,2BAA2B;AAC/B;;AAEA;IACI,WAAW;IACX,6BAA6B;IAC7B,aAAa;IACb,cAAc;IACd,gBAAgB;IAChB,oCAAoC;AACxC;;AAEA;IACI,kBAAkB;IAClB,mBAAmB;AACvB;;AAEA;IACI,qBAAqB;IACrB,YAAY;AAChB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');\n\n*{\n    margin: 0;\n    padding: 0;\n}\n\np{\n    font-size: 18px;\n    font-family: 'Open Sans', sans-serif;\n}\n\nbody{\n    background-color: skyblue;\n}\n\n.xcontainer{\n    max-width: 640px;\n    margin: 0 auto;\n    padding: 20px;\n    margin-top: 40px;\n    background-color: white;\n    border-radius: 15px;\n    margin-bottom: 40px;\n    \n}\n\n.config{\n    margin-top: 30px;\n    margin-bottom: 28px;\n}\n\n.title{\n    margin-bottom: 28px;\n    text-align: center;\n    font-family: 'Open Sans', sans-serif;\n}\n\np{\n    margin-bottom: 0;\n}\n\nform p, form input, form button{\n    display: block;\n}\n\nform input{\n    padding: 8px;\n    width: 100%;\n    margin-bottom: 10px;\n}\n\nform input:focus{\n    outline: 1px solid skyblue;\n}\n\nform button{\n    border: none;\n    background-color: skyblue;\n    font-family: 'Open Sans', sans-serif;\n    width: 100%;\n    height: 50px;\n    font-size: 1.5rem;\n    border: 1px solid black;\n    border-radius: 7px;\n    margin-top: 25px;\n\n}\n\n\nform button:hover{\n    border-color: blue;\n    color: white;\n}\n\nform button:active{\n    background-color: cadetblue;\n}\n\n.resposta{\n    width: 100%;\n    background-color: springgreen;\n    padding: 15px;\n    margin: 0 auto;\n    margin-top: 15px;\n    font-family: 'Open Sans', sans-serif;\n}\n\n.resposta p{\n    text-align: center;\n    align-items: center;\n}\n\n.changebg{\n    background-color: red;\n    color: white;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -16549,15 +16519,12 @@ module.exports = styleTagTransform;
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {
 /******/ 			id: moduleId,
-/******/ 			loaded: false,
+/******/ 			// no module.loaded needed
 /******/ 			exports: {}
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Flag the module as loaded
-/******/ 		module.loaded = true;
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
@@ -16600,21 +16567,6 @@ module.exports = styleTagTransform;
 /******/ 		})();
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/harmony module decorator */
-/******/ 	(() => {
-/******/ 		__webpack_require__.hmd = (module) => {
-/******/ 			module = Object.create(module);
-/******/ 			if (!module.children) module.children = [];
-/******/ 			Object.defineProperty(module, 'exports', {
-/******/ 				enumerable: true,
-/******/ 				set: () => {
-/******/ 					throw new Error('ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: ' + module.id);
-/******/ 				}
-/******/ 			});
-/******/ 			return module;
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -16632,13 +16584,24 @@ module.exports = styleTagTransform;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./frontEnd/main.js");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
+(() => {
+"use strict";
+/*!**************************!*\
+  !*** ./frontEnd/main.js ***!
+  \**************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/stable */ "./node_modules/core-js/stable/index.js");
+/* harmony import */ var core_js_stable__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_stable__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! regenerator-runtime/runtime */ "./node_modules/regenerator-runtime/runtime.js");
+/* harmony import */ var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/css/style.css */ "./frontEnd/assets/css/style.css");
+
+
+
+})();
+
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map
-

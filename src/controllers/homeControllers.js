@@ -1,16 +1,20 @@
-const HomeModel = require('../models/HomeModel')
-//import { nome } from '../../public/assets/js/bundle'
+/*const HomeModel = require('../models/HomeModel')
 
 HomeModel.create({
-    nome: 'Carimba'
+    nome: 'charimba'
 })
     .then(dados => console.log(dados))
     .catch(e => console.log(e))
-
-exports.paginaInicial = (req,res) => {
-    res.render("../views/index");
-};
-
+*/
+exports.paginaInicial = (req, res) => {
+    res.render('index', {
+      titulo: 'Este será o título da página',
+      numeros: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    });
+    return;
+  };
+  
 exports.trataPost = (req, res) => {
-    res.send('Ei, sou sua nova rota de Post')
-}
+    res.send(req.body);
+    return;
+};

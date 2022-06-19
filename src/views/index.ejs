@@ -7,10 +7,11 @@
     <section class="xcontainer">
         <h4 class="title"><strong> Cadastrar seu Nome </strong></h3>
         <div>
-            <form action="" class="form">
+            <form action="/" class="form" method="post">
                 <p>Nome:</p>
-                <input type="text" class="cpf">
+                <input type="text" class="nome">
                 <button class="botao">Cadastrar</button>
+                <input type="hidden" name="_csrf" value="<%= csrfToken %>">
             </form>
         </div>
         <div id="resultado"></div>
